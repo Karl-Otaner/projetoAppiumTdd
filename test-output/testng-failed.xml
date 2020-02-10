@@ -6,8 +6,10 @@
       <class name="br.com.rsi_hub.appium.test.CadastroTest">
         <methods>
           <include name="deveFazerCadastroDeNovoUsuario"/>
+          <include name="finalizaRelatorio"/>
           <include name="setUp"/>
           <include name="fecharApp"/>
+          <include name="relatorio"/>
         </methods>
       </class> <!-- br.com.rsi_hub.appium.test.CadastroTest -->
     </classes>

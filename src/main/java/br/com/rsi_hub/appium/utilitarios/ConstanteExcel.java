@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.excel;
+package br.com.rsi_hub.appium.utilitarios;
 
 public class ConstanteExcel {
 

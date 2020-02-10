@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.excel;
+package br.com.rsi_hub.appium.utilitarios;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

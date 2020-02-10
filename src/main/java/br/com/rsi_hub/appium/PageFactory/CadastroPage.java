@@ -63,6 +63,9 @@ public class CadastroPage {
 
 	@FindBy(how = How.ID, using = "com.Advantage.aShopping:id/buttonRegister")
 	private WebElement botaoRegistro;
+	
+	@FindBy(how = How.ID, using = "com.Advantage.aShopping:id/buttonRegister")
+	private WebElement mensageErro;
 
 	public void digiteNome(String digiteNome) throws Exception {
 		wait.until(ExpectedConditions.visibilityOf(nome)).click();
@@ -133,7 +136,17 @@ public class CadastroPage {
 
 	public void clicarRegistro() throws Exception {
 		wait.until(ExpectedConditions.visibilityOf(botaoRegistro)).click();
-	
+		
 	}
+	
+	
+	public WebElement mensageErro() throws Exception{
+			wait.until(ExpectedConditions.visibilityOf(botaoRegistro));
+			return mensageErro;
+			
+		}
+	
+	
+	
 
 }
