@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="br.com.rsi_hub.appium.test.CadastroTest">
+      <class name="br.com.rsi_hub.appium.test.TelaInicialTest">
         <methods>
-          <include name="deveFazerCadastroDeNovoUsuario"/>
-          <include name="finalizaRelatorio"/>
-          <include name="setUp"/>
           <include name="fecharApp"/>
-          <include name="relatorio"/>
+          <include name="deveAdicionarProdutoCarrinhoComMaisDeDezItens"/>
+          <include name="iniciarApp"/>
         </methods>
-      </class> <!-- br.com.rsi_hub.appium.test.CadastroTest -->
+      </class> <!-- br.com.rsi_hub.appium.test.TelaInicialTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
