@@ -27,6 +27,17 @@ public class LoginPage {
 	@FindBy(how = How.ID, using = "com.Advantage.aShopping:id/textViewMenuUser")
 	private WebElement cliqueLogin;
 	
+	@FindBy(how = How.XPATH, using = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[3]/android.widget.EditText")
+	private WebElement usuarioFixo;
+	
+	@FindBy(how = How.XPATH, using = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout[2]/android.widget.RelativeLayout[4]/android.widget.EditText")
+	private WebElement senhaFixa;
+	
+	@FindBy(how = How.ID, using = "com.Advantage.aShopping:id/buttonLogin")
+	private WebElement botaoLogin;
+	
+	
+	
 	@FindBy(how = How.ID, using = "com.Advantage.aShopping:id/textViewSingUpToday")
 	private WebElement cliqueNovaConta;
 	
@@ -45,6 +56,17 @@ public class LoginPage {
 	public void cliqueNovaConta() {
 		cliqueNovaConta.click();
 		
+	}
+	public void usuarioFixo()  {
+		usuarioFixo.sendKeys("Karl_Otaner");
+	}
+	
+	public void senhaFixa()  {
+		senhaFixa.sendKeys("Aa123456");
+	}
+	
+	public void login() throws Exception {
+		wait.until(ExpectedConditions.visibilityOf(botaoLogin)).click();
 	}
 	
 	
