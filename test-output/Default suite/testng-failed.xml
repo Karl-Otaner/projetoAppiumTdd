@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="br.com.rsi_hub.appium.test.TelaInicialTest">
+      <class name="br.com.rsi_hub.appium.test.BuscaLupaTest">
         <methods>
+          <include name="deveBuscarProdutoPelaLupaQueNaoExiste"/>
+          <include name="finalizaRelatorio"/>
           <include name="fecharApp"/>
-          <include name="deveAdicionarProdutoCarrinhoComMaisDeDezItens"/>
+          <include name="relatorio"/>
           <include name="iniciarApp"/>
         </methods>
-      </class> <!-- br.com.rsi_hub.appium.test.TelaInicialTest -->
+      </class> <!-- br.com.rsi_hub.appium.test.BuscaLupaTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

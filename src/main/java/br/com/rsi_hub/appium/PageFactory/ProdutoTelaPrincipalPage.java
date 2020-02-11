@@ -47,7 +47,6 @@ public class ProdutoTelaPrincipalPage {
 	private WebElement adicionarCarrinho;
 	
 	
-	
 	public void clicaTable() {
 		wait.until(ExpectedConditions.visibilityOf(clicaTablet)).click();
 		
@@ -65,6 +64,7 @@ public class ProdutoTelaPrincipalPage {
 	
 	public void digitarQuantidade(String quantidade) throws InterruptedException {
 //		digitarQuantidade.clear();
+		digitarQuantidade.click();
 		digitarQuantidade.sendKeys(quantidade);
 		
 		
