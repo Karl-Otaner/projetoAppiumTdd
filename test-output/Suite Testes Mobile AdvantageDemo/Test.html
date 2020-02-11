@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 10 21:48:02 BRT 2020</td>
+<td>Started on:</td><td>Tue Feb 11 09:16:29 BRT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>283 seconds (283507 ms)</td>
+<tr><td>Total time:</td><td>249 seconds (249469 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,141 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='br.com.rsi_hub.appium.test.TelaInicialTest.deveAdicionarProdutoCarrinhoComMaisDeDezItens()'><b>deveAdicionarProdutoCarrinhoComMaisDeDezItens</b><br>Test class: br.com.rsi_hub.appium.test.TelaInicialTest</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element &apos;By.id: com.Advantage.aShopping:id/textViewProductQuantity&apos; does not exist in DOM anymore
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RSI1557&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.Advantage.aShopping.Spl..., appPackage: com.Advantage.aShopping, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.Advantage.aShopping.Spl..., appPackage: com.Advantage.aShopping, automationName: uiautomator2, deviceName: emulator-5554, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: dda97b30-d874-4a26-87e0-8efc490afeaf
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at br.com.rsi_hub.appium.PageFactory.ProdutoTelaPrincipalPage.digitarQuantidade(ProdutoTelaPrincipalPage.java:67)
-	at br.com.rsi_hub.appium.test.TelaInicialTest.deveAdicionarProdutoCarrinhoComMaisDeDezItens(TelaInicialTest.java:73)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1491890454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1491890454'><pre>org.openqa.selenium.StaleElementReferenceException: The element &apos;By.id: com.Advantage.aShopping:id/textViewProductQuantity&apos; does not exist in DOM anymore
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RSI1557&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.Advantage.aShopping.Spl..., appPackage: com.Advantage.aShopping, automationName: uiautomator2, databaseEnabled: false, desired: {appActivity: com.Advantage.aShopping.Spl..., appPackage: com.Advantage.aShopping, automationName: uiautomator2, deviceName: emulator-5554, platformName: android, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 7.0, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: dda97b30-d874-4a26-87e0-8efc490afeaf
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at br.com.rsi_hub.appium.PageFactory.ProdutoTelaPrincipalPage.digitarQuantidade(ProdutoTelaPrincipalPage.java:67)
-	at br.com.rsi_hub.appium.test.TelaInicialTest.deveAdicionarProdutoCarrinhoComMaisDeDezItens(TelaInicialTest.java:73)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>11</td>
-<td>br.com.rsi_hub.appium.test.TelaInicialTest@5f2108b5</td></tr>
-<tr>
-<td title='br.com.rsi_hub.appium.test.TelaInicialTest.deveBuscaProdutoTelaPrincipal()'><b>deveBuscaProdutoTelaPrincipal</b><br>Test class: br.com.rsi_hub.appium.test.TelaInicialTest</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at br.com.rsi_hub.appium.test.TelaInicialTest.deveBuscaProdutoTelaPrincipal(TelaInicialTest.java:54)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1332150216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1332150216'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertTrue(Assert.java:44)
-	at org.testng.Assert.assertTrue(Assert.java:54)
-	at br.com.rsi_hub.appium.test.TelaInicialTest.deveBuscaProdutoTelaPrincipal(TelaInicialTest.java:54)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>6</td>
-<td>br.com.rsi_hub.appium.test.TelaInicialTest@5f2108b5</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -210,25 +75,35 @@ Session ID: dda97b30-d874-4a26-87e0-8efc490afeaf
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='br.com.rsi_hub.appium.test.BuscaLupaTest.deveBuscarProdutoPelaLupa()'><b>deveBuscarProdutoPelaLupa</b><br>Test class: br.com.rsi_hub.appium.test.BuscaLupaTest</td>
+<td title='br.com.rsi_hub.appium.tdd.test.TelaInicialTest.deveBuscaProdutoTelaPrincipal()'><b>deveBuscaProdutoTelaPrincipal</b><br>Test class: br.com.rsi_hub.appium.tdd.test.TelaInicialTest</td>
+<td></td>
+<td>5</td>
+<td>br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5</td></tr>
+<tr>
+<td title='br.com.rsi_hub.appium.tdd.test.BuscaLupaTest.deveBuscarProdutoPelaLupa()'><b>deveBuscarProdutoPelaLupa</b><br>Test class: br.com.rsi_hub.appium.tdd.test.BuscaLupaTest</td>
 <td></td>
 <td>9</td>
-<td>br.com.rsi_hub.appium.test.BuscaLupaTest@e45f292</td></tr>
+<td>br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292</td></tr>
 <tr>
-<td title='br.com.rsi_hub.appium.test.BuscaLupaTest.deveBuscarProdutoPelaLupaQueNaoExiste()'><b>deveBuscarProdutoPelaLupaQueNaoExiste</b><br>Test class: br.com.rsi_hub.appium.test.BuscaLupaTest</td>
+<td title='br.com.rsi_hub.appium.tdd.test.BuscaLupaTest.deveBuscarProdutoPelaLupaQueNaoExiste()'><b>deveBuscarProdutoPelaLupaQueNaoExiste</b><br>Test class: br.com.rsi_hub.appium.tdd.test.BuscaLupaTest</td>
 <td></td>
 <td>4</td>
-<td>br.com.rsi_hub.appium.test.BuscaLupaTest@e45f292</td></tr>
+<td>br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292</td></tr>
 <tr>
-<td title='br.com.rsi_hub.appium.test.CadastroTest.deveFazerCadastroDeNovoUsuario()'><b>deveFazerCadastroDeNovoUsuario</b><br>Test class: br.com.rsi_hub.appium.test.CadastroTest</td>
+<td title='br.com.rsi_hub.appium.tdd.test.TelaInicialTest.deveBuscarProdutoSemSaldo()'><b>deveBuscarProdutoSemSaldo</b><br>Test class: br.com.rsi_hub.appium.tdd.test.TelaInicialTest</td>
+<td></td>
+<td>5</td>
+<td>br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5</td></tr>
+<tr>
+<td title='br.com.rsi_hub.appium.tdd.test.CadastroTest.deveFazerCadastroDeNovoUsuario()'><b>deveFazerCadastroDeNovoUsuario</b><br>Test class: br.com.rsi_hub.appium.tdd.test.CadastroTest</td>
 <td></td>
 <td>33</td>
-<td>br.com.rsi_hub.appium.test.CadastroTest@5bcab519</td></tr>
+<td>br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519</td></tr>
 <tr>
-<td title='br.com.rsi_hub.appium.test.CadastroTest.deveFazerCadastroDeUsuarioJaCadastrado()'><b>deveFazerCadastroDeUsuarioJaCadastrado</b><br>Test class: br.com.rsi_hub.appium.test.CadastroTest</td>
+<td title='br.com.rsi_hub.appium.tdd.test.CadastroTest.deveFazerCadastroDeUsuarioJaCadastrado()'><b>deveFazerCadastroDeUsuarioJaCadastrado</b><br>Test class: br.com.rsi_hub.appium.tdd.test.CadastroTest</td>
 <td></td>
 <td>31</td>
-<td>br.com.rsi_hub.appium.test.CadastroTest@5bcab519</td></tr>
+<td>br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519</td></tr>
 </table><p>
 </body>
 </html>

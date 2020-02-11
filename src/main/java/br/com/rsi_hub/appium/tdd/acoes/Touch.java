@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.acoes;
+package br.com.rsi_hub.appium.tdd.acoes;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

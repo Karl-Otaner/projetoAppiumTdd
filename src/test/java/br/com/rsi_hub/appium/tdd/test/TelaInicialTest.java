@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.test;
+package br.com.rsi_hub.appium.tdd.test;
 
 import static org.testng.Assert.assertTrue;
 
@@ -20,10 +20,10 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.sun.org.apache.xerces.internal.util.URI.MalformedURIException;
 
-import br.com.rsi_hub.appium.PageFactory.LoginPage;
-import br.com.rsi_hub.appium.PageFactory.ProdutoTelaPrincipalPage;
-import br.com.rsi_hub.appium.driver.DriverFactory;
-import br.com.rsi_hub.appium.utilitarios.Relatorio;
+import br.com.rsi_hub.appium.tdd.PageFactory.LoginPage;
+import br.com.rsi_hub.appium.tdd.PageFactory.ProdutoTelaPrincipalPage;
+import br.com.rsi_hub.appium.tdd.driver.DriverFactory;
+import br.com.rsi_hub.appium.tdd.utilitarios.Relatorio;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
@@ -43,12 +43,12 @@ public class TelaInicialTest {
 	}
 
 	@BeforeTest
-	public void relatorio() {
+	public void relatorio() throws MalformedURLException {
 		extent = Relatorio.setExtent();
 	}
 
 	@Test
-	public void deveBuscaProdutoTelaPrincipal() {
+	public void deveBuscaProdutoTelaPrincipal() throws MalformedURLException {
 		telaPrincipal.clicaTable();
 		telaPrincipal.escolherTablet();
 		Assert.assertTrue(driver.getPageSource().contains("HP PRO TABLET 608 G1"));
@@ -57,25 +57,13 @@ public class TelaInicialTest {
 	}
 
 	@Test
-	public void deveAdicionarProdutoCarrinhoComMaisDeDezItens() throws Exception {
+	public void deveBuscarProdutoSemSaldo() throws Exception {
 		logger = Relatorio.setUp("buscaProdutoTelaPrincipalComFalha");
 
-		login.cliqueMenu();
-		login.cliqueLogin();
-		login.usuarioFixo();
-		login.senhaFixa();
-		login.login();
-
-		telaPrincipal.clicaTable();
-		telaPrincipal.escolherTablet();
-
-		telaPrincipal.clicarQuantidade();
-		telaPrincipal.digitarQuantidade("11");
-		telaPrincipal.quantidadeApplay();
-		telaPrincipal.adicionarCarrinho();
-
-		assertTrue(driver.getPageSource().contains("10"));
-
+		
+		telaPrincipal.escolherHead();
+		telaPrincipal.ProdutoInvalido();
+		Assert.assertTrue(driver.getPageSource().contains("SOLD OUT"));
 
 	}
 

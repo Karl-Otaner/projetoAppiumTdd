@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.test;
+package br.com.rsi_hub.appium.tdd.test;
 
 import java.net.MalformedURLException;
 
@@ -15,11 +15,11 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
-import br.com.rsi_hub.appium.PageFactory.CadastroPage;
-import br.com.rsi_hub.appium.PageFactory.LoginPage;
-import br.com.rsi_hub.appium.driver.DriverFactory;
-import br.com.rsi_hub.appium.utilitarios.MassaDeDados;
-import br.com.rsi_hub.appium.utilitarios.Relatorio;
+import br.com.rsi_hub.appium.tdd.PageFactory.CadastroPage;
+import br.com.rsi_hub.appium.tdd.PageFactory.LoginPage;
+import br.com.rsi_hub.appium.tdd.driver.DriverFactory;
+import br.com.rsi_hub.appium.tdd.utilitarios.MassaDeDados;
+import br.com.rsi_hub.appium.tdd.utilitarios.Relatorio;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 

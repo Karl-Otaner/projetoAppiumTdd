@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.driver;
+package br.com.rsi_hub.appium.tdd.driver;
 
 import java.net.MalformedURLException;
 import java.net.URL;

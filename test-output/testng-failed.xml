@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite Testes Mobile AdvantageDemo]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="br.com.rsi_hub.appium.test.TelaInicialTest">
+      <class name="br.com.rsi_hub.appium.tdd.test.TelaInicialTest">
         <methods>
           <include name="relatorio"/>
-          <include name="fecharApp"/>
-          <include name="deveAdicionarProdutoCarrinhoComMaisDeDezItens"/>
-          <include name="deveBuscaProdutoTelaPrincipal"/>
-          <include name="finalizaRelatorio"/>
           <include name="iniciarApp"/>
+          <include name="deveBuscarProdutoSemSaldo"/>
+          <include name="finalizaRelatorio"/>
+          <include name="fecharApp"/>
         </methods>
-      </class> <!-- br.com.rsi_hub.appium.test.TelaInicialTest -->
+      </class> <!-- br.com.rsi_hub.appium.tdd.test.TelaInicialTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite Testes Mobile AdvantageDemo] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

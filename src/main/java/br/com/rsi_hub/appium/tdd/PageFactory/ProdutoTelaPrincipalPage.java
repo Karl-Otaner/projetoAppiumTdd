@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.PageFactory;
+package br.com.rsi_hub.appium.tdd.PageFactory;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,50 +34,32 @@ public class ProdutoTelaPrincipalPage {
 	@FindBy(how = How.XPATH, using = "//android.widget.RelativeLayout[@content-desc=\"Tablets\"]/android.widget.LinearLayout/android.widget.GridView/android.widget.RelativeLayout[3]/android.widget.ImageView")
 	private WebElement escolherTablet;
 	
-	@FindBy(how = How.ID, using = "com.Advantage.aShopping:id/linearLayoutProductQuantity")
-	private WebElement clicarQuantidade;
+	@FindBy(how = How.XPATH, using = "//*[@text='HEADPHONES']")
+	private WebElement escolherHead;
 	
-	@FindBy(how = How.ID, using = "com.Advantage.aShopping:id/textViewProductQuantity")
-	private WebElement digitarQuantidade;
 	
-	@FindBy(how = How.ID, using = "com.Advantage.aShopping:id/textViewApply")
-	private WebElement quantidadeApply;
+	@FindBy(how = How.XPATH, using = "//*[@text='BOSE SOUNDLINK AROUND-EAR WIRELESS HEADPHONES II']")
+	private WebElement ProdutoInvalido;
 	
-	@FindBy(how = How.ID, using = "com.Advantage.aShopping:id/buttonProductAddToCart")
-	private WebElement adicionarCarrinho;
+	@FindBy(how = How.XPATH, using = "//*[@text='SOLD OUT']")
+	private WebElement semSaldo;
 	
+
 	
 	public void clicaTable() {
 		wait.until(ExpectedConditions.visibilityOf(clicaTablet)).click();
 		
+	}
+	public void escolherHead() {
+		wait.until(ExpectedConditions.visibilityOf(escolherHead)).click();
 	}
 	
 	public void escolherTablet() {
 		wait.until(ExpectedConditions.visibilityOf(escolherTablet)).click();
 	}
 	
-	
-	
-	public void clicarQuantidade() {
-		wait.until(ExpectedConditions.visibilityOf(clicarQuantidade)).click();
-	}
-	
-	public void digitarQuantidade(String quantidade) throws InterruptedException {
-//		digitarQuantidade.clear();
-		digitarQuantidade.click();
-		digitarQuantidade.sendKeys(quantidade);
-		
-		
-	}
-	
-	
-	public void quantidadeApplay() {
-		wait.until(ExpectedConditions.visibilityOf(quantidadeApply)).click();
-		
-	}
-	
-	public void adicionarCarrinho() {
-		wait.until(ExpectedConditions.visibilityOf(adicionarCarrinho)).click();
+	public void ProdutoInvalido() {
+		wait.until(ExpectedConditions.visibilityOf(ProdutoInvalido)).click();
 		
 	}
 	

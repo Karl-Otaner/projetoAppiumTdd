@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.PageFactory;
+package br.com.rsi_hub.appium.tdd.PageFactory;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testes Mobile AdvantageDemo">
+	<test name="Test">
+		<classes>
+
+			<class name="br.com.rsi_hub.appium.tdd.test.CadastroTest" />
+			<class name="br.com.rsi_hub.appium.tdd.test.BuscaLupaTest" />
+			<class name="br.com.rsi_hub.appium.tdd.test.TelaInicialTest" />
+
+		</classes>
+	</test>
+</suite>

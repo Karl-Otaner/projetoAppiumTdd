@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.utilitarios;
+package br.com.rsi_hub.appium.tdd.utilitarios;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
