@@ -1,13 +1,7 @@
 package br.com.rsi_hub.appium.tdd.test;
 
-import static org.testng.Assert.assertTrue;
-
-import java.io.IOException;
 import java.net.MalformedURLException;
 
-import org.aspectj.lang.annotation.After;
-import org.openqa.selenium.interactions.SendKeysAction;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -18,7 +12,6 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.sun.org.apache.xerces.internal.util.URI.MalformedURIException;
 
 import br.com.rsi_hub.appium.tdd.PageFactory.LoginPage;
 import br.com.rsi_hub.appium.tdd.PageFactory.ProdutoTelaPrincipalPage;

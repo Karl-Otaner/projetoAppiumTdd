@@ -1,6 +1,7 @@
 package br.com.rsi_hub.appium.tdd.test;
 
 import java.net.MalformedURLException;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -57,7 +58,7 @@ public class CadastroTest {
 		login.cliqueMenu();
 		login.cliqueLogin();
 		login.cliqueNovaConta();
-		cadastro.digiteNome(massa.digiteNome());
+		cadastro.digiteNome(massa.digiteNome() + new Random().nextInt(1000));
 		cadastro.digiteEmail(massa.digiteEmail());
 		cadastro.digiteSenha(massa.digiteSenha());
 		cadastro.confirmarSenha(massa.confirmarSenha());

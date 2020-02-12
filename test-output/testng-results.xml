@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite Testes Mobile AdvantageDemo" duration-ms="249469" started-at="2020-02-11T12:16:29Z" finished-at="2020-02-11T12:20:38Z">
+  <suite name="Suite Testes Mobile AdvantageDemo" duration-ms="253144" started-at="2020-02-12T23:03:04Z" finished-at="2020-02-12T23:07:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="249469" started-at="2020-02-11T12:16:29Z" finished-at="2020-02-11T12:20:38Z">
+    <test name="Test" duration-ms="253144" started-at="2020-02-12T23:03:04Z" finished-at="2020-02-12T23:07:18Z">
       <class name="br.com.rsi_hub.appium.tdd.test.CadastroTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="setUp" is-config="true" duration-ms="26181" started-at="2020-02-11T12:16:29Z" finished-at="2020-02-11T12:16:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="setUp" is-config="true" duration-ms="26707" started-at="2020-02-12T23:03:05Z" finished-at="2020-02-12T23:03:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deveFazerCadastroDeNovoUsuario()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="deveFazerCadastroDeNovoUsuario" duration-ms="33461" started-at="2020-02-11T12:16:55Z" finished-at="2020-02-11T12:17:29Z">
+        <test-method status="PASS" signature="deveFazerCadastroDeNovoUsuario()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="deveFazerCadastroDeNovoUsuario" duration-ms="33618" started-at="2020-02-12T23:03:31Z" finished-at="2020-02-12T23:04:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveFazerCadastroDeNovoUsuario -->
-        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="fecharApp" is-config="true" duration-ms="1882" started-at="2020-02-11T12:17:29Z" finished-at="2020-02-11T12:17:31Z">
+        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="fecharApp" is-config="true" duration-ms="2017" started-at="2020-02-12T23:04:05Z" finished-at="2020-02-12T23:04:07Z">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fecharApp -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="setUp" is-config="true" duration-ms="24527" started-at="2020-02-11T12:17:31Z" finished-at="2020-02-11T12:17:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="setUp" is-config="true" duration-ms="24657" started-at="2020-02-12T23:04:07Z" finished-at="2020-02-12T23:04:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deveFazerCadastroDeUsuarioJaCadastrado()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="deveFazerCadastroDeUsuarioJaCadastrado" duration-ms="31834" started-at="2020-02-11T12:17:55Z" finished-at="2020-02-11T12:18:27Z">
+        <test-method status="PASS" signature="deveFazerCadastroDeUsuarioJaCadastrado()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="deveFazerCadastroDeUsuarioJaCadastrado" duration-ms="32704" started-at="2020-02-12T23:04:32Z" finished-at="2020-02-12T23:05:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveFazerCadastroDeUsuarioJaCadastrado -->
-        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="fecharApp" is-config="true" duration-ms="1652" started-at="2020-02-11T12:18:27Z" finished-at="2020-02-11T12:18:29Z">
+        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="fecharApp" is-config="true" duration-ms="1643" started-at="2020-02-12T23:05:04Z" finished-at="2020-02-12T23:05:06Z">
           <params>
             <param index="0">
               <value>
@@ -47,15 +47,15 @@
         </test-method> <!-- fecharApp -->
       </class> <!-- br.com.rsi_hub.appium.tdd.test.CadastroTest -->
       <class name="br.com.rsi_hub.appium.tdd.test.TelaInicialTest">
-        <test-method status="PASS" signature="iniciarApp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="iniciarApp" is-config="true" duration-ms="24427" started-at="2020-02-11T12:19:34Z" finished-at="2020-02-11T12:19:59Z">
+        <test-method status="PASS" signature="iniciarApp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="iniciarApp" is-config="true" duration-ms="24563" started-at="2020-02-12T23:06:13Z" finished-at="2020-02-12T23:06:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciarApp -->
-        <test-method status="PASS" signature="deveBuscaProdutoTelaPrincipal()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="deveBuscaProdutoTelaPrincipal" duration-ms="5145" started-at="2020-02-11T12:19:59Z" finished-at="2020-02-11T12:20:04Z">
+        <test-method status="PASS" signature="deveBuscaProdutoTelaPrincipal()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="deveBuscaProdutoTelaPrincipal" duration-ms="5491" started-at="2020-02-12T23:06:37Z" finished-at="2020-02-12T23:06:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveBuscaProdutoTelaPrincipal -->
-        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="fecharApp" is-config="true" duration-ms="2257" started-at="2020-02-11T12:20:04Z" finished-at="2020-02-11T12:20:06Z">
+        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="fecharApp" is-config="true" duration-ms="2291" started-at="2020-02-12T23:06:43Z" finished-at="2020-02-12T23:06:45Z">
           <params>
             <param index="0">
               <value>
@@ -66,15 +66,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fecharApp -->
-        <test-method status="PASS" signature="iniciarApp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="iniciarApp" is-config="true" duration-ms="24318" started-at="2020-02-11T12:20:06Z" finished-at="2020-02-11T12:20:31Z">
+        <test-method status="PASS" signature="iniciarApp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="iniciarApp" is-config="true" duration-ms="24708" started-at="2020-02-12T23:06:45Z" finished-at="2020-02-12T23:07:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciarApp -->
-        <test-method status="PASS" signature="deveBuscarProdutoSemSaldo()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="deveBuscarProdutoSemSaldo" duration-ms="5889" started-at="2020-02-11T12:20:31Z" finished-at="2020-02-11T12:20:36Z">
+        <test-method status="PASS" signature="deveBuscarProdutoSemSaldo()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="deveBuscarProdutoSemSaldo" duration-ms="5709" started-at="2020-02-12T23:07:10Z" finished-at="2020-02-12T23:07:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveBuscarProdutoSemSaldo -->
-        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="fecharApp" is-config="true" duration-ms="1928" started-at="2020-02-11T12:20:36Z" finished-at="2020-02-11T12:20:38Z">
+        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="fecharApp" is-config="true" duration-ms="1832" started-at="2020-02-12T23:07:16Z" finished-at="2020-02-12T23:07:18Z">
           <params>
             <param index="0">
               <value>
@@ -87,27 +87,27 @@
         </test-method> <!-- fecharApp -->
       </class> <!-- br.com.rsi_hub.appium.tdd.test.TelaInicialTest -->
       <class name="br.com.rsi_hub.appium.tdd.test.BuscaLupaTest">
-        <test-method status="PASS" signature="relatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="relatorio" is-config="true" duration-ms="193" started-at="2020-02-11T12:16:29Z" finished-at="2020-02-11T12:16:29Z">
+        <test-method status="PASS" signature="relatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="relatorio" is-config="true" duration-ms="212" started-at="2020-02-12T23:03:04Z" finished-at="2020-02-12T23:03:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- relatorio -->
-        <test-method status="PASS" signature="relatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="relatorio" is-config="true" duration-ms="0" started-at="2020-02-11T12:16:29Z" finished-at="2020-02-11T12:16:29Z">
+        <test-method status="PASS" signature="relatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="relatorio" is-config="true" duration-ms="1" started-at="2020-02-12T23:03:05Z" finished-at="2020-02-12T23:03:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- relatorio -->
-        <test-method status="PASS" signature="relatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="relatorio" is-config="true" duration-ms="1" started-at="2020-02-11T12:16:29Z" finished-at="2020-02-11T12:16:29Z">
+        <test-method status="PASS" signature="relatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="relatorio" is-config="true" duration-ms="0" started-at="2020-02-12T23:03:05Z" finished-at="2020-02-12T23:03:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- relatorio -->
-        <test-method status="PASS" signature="iniciarApp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="iniciarApp" is-config="true" duration-ms="24474" started-at="2020-02-11T12:18:29Z" finished-at="2020-02-11T12:18:53Z">
+        <test-method status="PASS" signature="iniciarApp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="iniciarApp" is-config="true" duration-ms="24739" started-at="2020-02-12T23:05:06Z" finished-at="2020-02-12T23:05:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciarApp -->
-        <test-method status="PASS" signature="deveBuscarProdutoPelaLupa()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="deveBuscarProdutoPelaLupa" duration-ms="9208" started-at="2020-02-11T12:18:53Z" finished-at="2020-02-11T12:19:02Z">
+        <test-method status="PASS" signature="deveBuscarProdutoPelaLupa()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="deveBuscarProdutoPelaLupa" duration-ms="10036" started-at="2020-02-12T23:05:31Z" finished-at="2020-02-12T23:05:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveBuscarProdutoPelaLupa -->
-        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="fecharApp" is-config="true" duration-ms="1859" started-at="2020-02-11T12:19:02Z" finished-at="2020-02-11T12:19:04Z">
+        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="fecharApp" is-config="true" duration-ms="1887" started-at="2020-02-12T23:05:41Z" finished-at="2020-02-12T23:05:43Z">
           <params>
             <param index="0">
               <value>
@@ -118,15 +118,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fecharApp -->
-        <test-method status="PASS" signature="iniciarApp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="iniciarApp" is-config="true" duration-ms="24416" started-at="2020-02-11T12:19:04Z" finished-at="2020-02-11T12:19:29Z">
+        <test-method status="PASS" signature="iniciarApp()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="iniciarApp" is-config="true" duration-ms="24576" started-at="2020-02-12T23:05:43Z" finished-at="2020-02-12T23:06:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciarApp -->
-        <test-method status="PASS" signature="deveBuscarProdutoPelaLupaQueNaoExiste()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="deveBuscarProdutoPelaLupaQueNaoExiste" duration-ms="4063" started-at="2020-02-11T12:19:29Z" finished-at="2020-02-11T12:19:33Z">
+        <test-method status="PASS" signature="deveBuscarProdutoPelaLupaQueNaoExiste()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="deveBuscarProdutoPelaLupaQueNaoExiste" duration-ms="4033" started-at="2020-02-12T23:06:07Z" finished-at="2020-02-12T23:06:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deveBuscarProdutoPelaLupaQueNaoExiste -->
-        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="fecharApp" is-config="true" duration-ms="1660" started-at="2020-02-11T12:19:33Z" finished-at="2020-02-11T12:19:34Z">
+        <test-method status="PASS" signature="fecharApp(org.testng.ITestResult)[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="fecharApp" is-config="true" duration-ms="1629" started-at="2020-02-12T23:06:11Z" finished-at="2020-02-12T23:06:13Z">
           <params>
             <param index="0">
               <value>
@@ -137,15 +137,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fecharApp -->
-        <test-method status="PASS" signature="finalizaRelatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="finalizaRelatorio" is-config="true" duration-ms="0" started-at="2020-02-11T12:20:38Z" finished-at="2020-02-11T12:20:38Z">
+        <test-method status="PASS" signature="finalizaRelatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.CadastroTest@5bcab519]" name="finalizaRelatorio" is-config="true" duration-ms="0" started-at="2020-02-12T23:07:18Z" finished-at="2020-02-12T23:07:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizaRelatorio -->
-        <test-method status="PASS" signature="finalizaRelatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="finalizaRelatorio" is-config="true" duration-ms="59" started-at="2020-02-11T12:20:38Z" finished-at="2020-02-11T12:20:38Z">
+        <test-method status="PASS" signature="finalizaRelatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.TelaInicialTest@5f2108b5]" name="finalizaRelatorio" is-config="true" duration-ms="56" started-at="2020-02-12T23:07:18Z" finished-at="2020-02-12T23:07:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizaRelatorio -->
-        <test-method status="PASS" signature="finalizaRelatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="finalizaRelatorio" is-config="true" duration-ms="0" started-at="2020-02-11T12:20:38Z" finished-at="2020-02-11T12:20:38Z">
+        <test-method status="PASS" signature="finalizaRelatorio()[pri:0, instance:br.com.rsi_hub.appium.tdd.test.BuscaLupaTest@e45f292]" name="finalizaRelatorio" is-config="true" duration-ms="0" started-at="2020-02-12T23:07:18Z" finished-at="2020-02-12T23:07:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizaRelatorio -->
