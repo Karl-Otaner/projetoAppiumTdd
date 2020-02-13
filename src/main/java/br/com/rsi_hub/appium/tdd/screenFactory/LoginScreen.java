@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.tdd.PageFactory;
+package br.com.rsi_hub.appium.tdd.screenFactory;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,13 +9,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class LoginPage {
+public class LoginScreen {
 	
 	AndroidDriver driver;
 	private WebDriverWait wait;
 	
 	
-	public LoginPage(AndroidDriver driver) {
+	public LoginScreen(AndroidDriver driver) {
 		PageFactory.initElements(driver, this);
 		wait = new WebDriverWait(driver, 20);
 	}

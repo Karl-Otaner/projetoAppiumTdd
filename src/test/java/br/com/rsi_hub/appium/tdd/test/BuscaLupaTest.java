@@ -15,9 +15,9 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
-import br.com.rsi_hub.appium.tdd.PageFactory.BuscaProdutoLupaPage;
 import br.com.rsi_hub.appium.tdd.acoes.Touch;
 import br.com.rsi_hub.appium.tdd.driver.DriverFactory;
+import br.com.rsi_hub.appium.tdd.screenFactory.BuscaProdutoLupaScreen;
 import br.com.rsi_hub.appium.tdd.utilitarios.Relatorio;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -26,7 +26,7 @@ public class BuscaLupaTest {
 
 	public static AndroidDriver<MobileElement> driver;
 
-	public BuscaProdutoLupaPage buscaLupa;
+	public BuscaProdutoLupaScreen buscaLupa;
 	public Touch touch;
 	private ExtentReports extent;
 	private ExtentTest logger;
@@ -34,7 +34,7 @@ public class BuscaLupaTest {
 	@BeforeMethod
 	public void iniciarApp() throws MalformedURLException {
 		driver = DriverFactory.createDriver();
-		buscaLupa = PageFactory.initElements(driver, BuscaProdutoLupaPage.class);
+		buscaLupa = PageFactory.initElements(driver, BuscaProdutoLupaScreen.class);
 		touch = new Touch(driver);
 
 	}

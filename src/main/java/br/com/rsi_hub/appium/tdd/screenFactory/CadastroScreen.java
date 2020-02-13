@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.tdd.PageFactory;
+package br.com.rsi_hub.appium.tdd.screenFactory;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,13 +12,13 @@ import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class CadastroPage {
+public class CadastroScreen {
 
 	private AndroidDriver<MobileElement> driver;
 	private WebDriverWait wait;
 	TouchAction action;
 
-	public CadastroPage(AndroidDriver<MobileElement> driver) {
+	public CadastroScreen(AndroidDriver<MobileElement> driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		wait = new WebDriverWait(this.driver, 20);

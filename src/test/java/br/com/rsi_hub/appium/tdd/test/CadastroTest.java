@@ -16,9 +16,9 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
-import br.com.rsi_hub.appium.tdd.PageFactory.CadastroPage;
-import br.com.rsi_hub.appium.tdd.PageFactory.LoginPage;
 import br.com.rsi_hub.appium.tdd.driver.DriverFactory;
+import br.com.rsi_hub.appium.tdd.screenFactory.CadastroScreen;
+import br.com.rsi_hub.appium.tdd.screenFactory.LoginScreen;
 import br.com.rsi_hub.appium.tdd.utilitarios.MassaDeDados;
 import br.com.rsi_hub.appium.tdd.utilitarios.Relatorio;
 import io.appium.java_client.MobileElement;
@@ -27,8 +27,8 @@ import io.appium.java_client.android.AndroidDriver;
 public class CadastroTest {
 
 	public AndroidDriver<MobileElement> driver;
-	private LoginPage login;
-	private CadastroPage cadastro;
+	private LoginScreen login;
+	private CadastroScreen cadastro;
 	private MassaDeDados massa;
 	private WebDriverWait wait;
 	private ExtentReports extent;
@@ -37,8 +37,8 @@ public class CadastroTest {
 	@BeforeMethod
 	public void setUp() throws MalformedURLException {
 		driver = DriverFactory.createDriver();
-		login = new LoginPage(driver);
-		cadastro = new CadastroPage(driver);
+		login = new LoginScreen(driver);
+		cadastro = new CadastroScreen(driver);
 		massa = new MassaDeDados();
 		wait = new WebDriverWait(driver, 2);
 

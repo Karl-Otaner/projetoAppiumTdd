@@ -13,9 +13,9 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
-import br.com.rsi_hub.appium.tdd.PageFactory.LoginPage;
-import br.com.rsi_hub.appium.tdd.PageFactory.ProdutoTelaPrincipalPage;
 import br.com.rsi_hub.appium.tdd.driver.DriverFactory;
+import br.com.rsi_hub.appium.tdd.screenFactory.LoginScreen;
+import br.com.rsi_hub.appium.tdd.screenFactory.ProdutoTelaPrincipalScreen;
 import br.com.rsi_hub.appium.tdd.utilitarios.Relatorio;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -23,16 +23,16 @@ import io.appium.java_client.android.AndroidDriver;
 public class TelaInicialTest {
 
 	public AndroidDriver<MobileElement> driver;
-	public ProdutoTelaPrincipalPage telaPrincipal;
-	private LoginPage login;
+	public ProdutoTelaPrincipalScreen telaPrincipal;
+	private LoginScreen login;
 	private ExtentReports extent;
 	private ExtentTest logger;
 
 	@BeforeMethod
 	public void iniciarApp() throws MalformedURLException {
 		driver = DriverFactory.createDriver();
-		telaPrincipal = new ProdutoTelaPrincipalPage(driver);
-		login = new LoginPage(driver);
+		telaPrincipal = new ProdutoTelaPrincipalScreen(driver);
+		login = new LoginScreen(driver);
 	}
 
 	@BeforeTest

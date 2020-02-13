@@ -1,4 +1,4 @@
-package br.com.rsi_hub.appium.tdd.PageFactory;
+package br.com.rsi_hub.appium.tdd.screenFactory;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,14 +10,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
-public class ProdutoTelaPrincipalPage {
+public class ProdutoTelaPrincipalScreen {
 
 	private AndroidDriver<MobileElement> driver;
 	private WebDriverWait wait;
 
 	
 
-	public ProdutoTelaPrincipalPage(AndroidDriver<MobileElement> driver) {
+	public ProdutoTelaPrincipalScreen(AndroidDriver<MobileElement> driver) {
 		
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
